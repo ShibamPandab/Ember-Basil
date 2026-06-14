@@ -74,3 +74,13 @@ The app will be available at `http://localhost:5173` by default.
 ## Keywords
 
 `Restaurant Website` · `Fine Dining UI` · `Premium Food Experience` · `React Restaurant Template` · `Modern Restaurant Design`
+
+---
+
+## ⚠️ License Notice
+
+**Source code provided for portfolio demonstration purposes only.**
+
+This repository is intended to showcase development, design, and engineering work.
+
+Commercial reuse, redistribution, resale, cloning, or reproduction of this project without explicit written permission is prohibited.
