@@ -1,73 +1,76 @@
-# React + TypeScript + Vite
+# Ember & Basil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+**Ember & Basil** is a premium restaurant website concept inspired by Michelin-level fine dining. The site presents a wood-fired culinary experience paired with fresh, rooftop-grown herbs through an immersive, story-driven layout — covering the menu, chef's philosophy, dining experiences, and reservations in a single elegant page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a **frontend showcase** demonstrating modern React development, smooth animation design, and premium restaurant branding.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- 🍽️ **Cinematic Hero Section** — bold introduction to the restaurant's identity
+- 📊 **Stats Section** — key highlights presented at a glance
+- 📜 **Scroll-Driven Story** — narrative section that unfolds as the user scrolls
+- 🥘 **Signature Dishes Showcase** — curated presentation of standout menu items
+- 📋 **Interactive Tasting Menu** — structured menu display
+- 🌿 **Ingredients Journey** — section highlighting the farm-to-table sourcing story
+- 👨‍🍳 **Chef Story** — dedicated section introducing the culinary team
+- ✨ **Signature Experiences** — showcase of unique dining experiences offered
+- 💬 **Testimonials** — guest reviews and feedback
+- 🖼️ **Gallery** — visual showcase of the restaurant and dishes
+- 📅 **Reservation Modal** — interactive booking popup with a floating reservation button that appears on scroll
+- 🦶 **Footer** — site navigation and closing information
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Category | Technology |
+|---|---|
+| Framework | React 19 |
+| Language | TypeScript |
+| Build Tool | Vite 8 |
+| Styling | Tailwind CSS v4 |
+| Animation | Framer Motion |
+| Icons | Lucide React |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Live Demo
+
+🔗 **[ember-basil.vercel.app](https://ember-basil.vercel.app/)**
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ShibamPandab/Ember-Basil.git
+
+# Move into the project directory
+cd Ember-Basil
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The app will be available at `http://localhost:5173` by default.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Author
+
+**Shibam Pandab**
+🔗 [GitHub Profile](https://github.com/ShibamPandab)
+
+---
+
+## Keywords
+
+`Restaurant Website` · `Fine Dining UI` · `Premium Food Experience` · `React Restaurant Template` · `Modern Restaurant Design`
